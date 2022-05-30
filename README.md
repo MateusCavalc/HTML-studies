@@ -1,1 +1,1 @@
-# HTML-studies
+# Estudos de HTML, CSS e JavaScript

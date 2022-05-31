@@ -11,7 +11,7 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
+article, aside, canvas, details, embed ,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
@@ -109,7 +109,7 @@ a:hover, a:visited, a:active {
 .blank-space:after {
     content: " ";
     display: block;
-    height: 2.5rem;
+    height: 3rem;
 }
 
 /* -------------------------------------------------
@@ -168,18 +168,56 @@ a:hover, a:visited, a:active {
 
     }
 
-    .page-main figure img {
+    .page-main-figure figure img {
         display: block;
     }
     
-    .page-main figcaption {
+    .page-main-figure figcaption {
         background-color: #f4f4f4;
-        padding: 0.5em 1em;
+        padding: 1em 1em;
 
     }
 
-    .page-main figcaption > strong {
+    .page-main-figure figcaption > strong {
         font-size: 1.4em;
+    }
+
+    .page-main-articles nav li {
+        float: left;
+        width: 30%;
+        margin-right: 5%;
+    }
+
+    .page-main-articles nav li:last-child {
+        margin-right: 0;
+    }
+
+    .page-main-articles header {
+        display: flex;
+        align-items: center;
+        margin: 0 0 2em;
+    }
+
+    .page-main-articles header > i {
+        float: left;
+        font-size: 2.5em;
+        width: 25%;
+        font-weight: bold;
+        color: #9a9a9a;
+    }
+
+    .page-main-articles header > h2 {
+        float: left;
+        width: 75%;
+        margin: 0;
+    }
+
+    .page-main-articles footer {
+        padding-top: 0.5em;
+    }
+
+    .page-main-articles footer > i {
+        margin-right: 0.5em;
     }
 
 /* -------------------------------------------------

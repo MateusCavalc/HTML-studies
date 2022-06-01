@@ -110,7 +110,7 @@ a:hover, a:visited, a:active {
 .blank-space:after {
     content: " ";
     display: block;
-    height: 3rem;
+    height: 5rem;
 }
 
 /* -------------------------------------------------
@@ -118,8 +118,8 @@ a:hover, a:visited, a:active {
    ----------------------------------------------------*/
 
 .page-header {
-        border-top: 5px solid #ebebeb;
-        margin-bottom: 2em;
+    border-top: 5px solid #ebebeb;
+    margin-bottom: 2em;
     }
 
     .page-header > div {
@@ -159,111 +159,6 @@ a:hover, a:visited, a:active {
     .page-header nav li:last-child {
         float: left;
         margin-right: none;
-    }
-
-/* -------------------------------------------------
-            Main
-----------------------------------------------------*/
-
-.page-main {
-
-    }
-
-    .page-main-figure figure img {
-        display: block;
-    }
-    
-    .page-main-figure figcaption {
-        background-color: #f4f4f4;
-        padding: 1em 1em;
-
-    }
-
-    .page-main-figure figcaption > strong {
-        font-size: 1.4em;
-    }
-
-    .page-main-articles nav li {
-        float: left;
-        width: 30%;
-        margin-right: 5%;
-    }
-
-    .page-main-articles nav li:last-child {
-        margin-right: 0;
-    }
-
-    .page-main-articles header {
-        display: flex;
-        align-items: center;
-        margin: 0 0 2em;
-    }
-
-    .page-main-articles header > i {
-        float: left;
-        font-size: 2.5em;
-        width: 25%;
-        font-weight: bold;
-        color: #9a9a9a;
-    }
-
-    .page-main-articles header > h2 {
-        float: left;
-        width: 75%;
-        margin: 0;
-    }
-
-    .page-main-subarticles:before {
-        content: " ";
-        display: block;
-        height: 1.8em;
-        background: url('../images/pattern.png') left top repeat-x;
-        margin-bottom: 3em;
-    }
-
-    .page-main-subarticles {
-        position: relative;
-    }
-
-    .page-main-subarticles .subarticles-title {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        text-align: center;
-    }
-
-    .page-main-subarticles .subarticles-title > h2 {
-        display: inline;
-        background-color: white;
-        padding: 1em;
-    }
-
-    .page-main-subarticles nav li {
-        float: left;
-        width: 22%;
-        margin-right: 4%;
-    }
-
-    .page-main-subarticles nav li:last-child {
-        margin-right: 0;
-    }
-
-    .page-main-subarticles nav h2 {
-        font-size: 1.2em;
-        margin: 0.8em 0 0.3em;
-    }
-
-    .page-main-subarticles img {
-        width: 100%;
-    }
-
-    .page-main footer {
-        padding-top: 0.5em;
-    }
-
-    .page-main footer > i {
-        margin-right: 0.5em;
     }
 
 /* -------------------------------------------------

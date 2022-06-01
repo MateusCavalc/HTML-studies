@@ -1,0 +1,79 @@
+/* -------------------------------------------------
+        Main
+   ----------------------------------------------------*/
+
+.page-main {
+
+   }
+
+   .page-main-header > h2 {
+       font-weight: bold;
+       margin-bottom: 0.5em;
+   }
+
+   .page-main-header > p {
+       font-style: italic;
+       color: #a5a5a5;
+       width: 70%;
+   }
+
+   .page-main-info:before, .page-main-team:before {
+    content: " ";
+    display: block;
+    height: 0.4em;
+    background: url('../images/pattern.png') left top repeat-x;
+    margin: 1em 0 3em;
+   }
+
+   .page-main ul li {
+       float: left;
+       width: 32%;
+       margin-right: 2%;
+   }
+
+   .page-main ul li:last-child {
+        margin-right: 0;
+    }
+
+    .page-main-info ul li p:first-of-type {
+        color: #a5a5a5;
+        margin-bottom: 1em;
+    }
+
+    .page-main-team article {
+        border-width: 0px 2px 2px 2px;
+        border-style: solid;
+        border-color: #f2f2f2;
+    }
+
+    .page-main-team .article-info {
+        padding: 1em;
+    }
+
+    .page-main-team .article-info header {
+        position: relative;
+    }
+
+    .page-main-team .article-info h2 {
+        margin-bottom: 0.1em;
+    }
+
+    .page-main-team .article-info span.title {
+        color: #969696;
+    }
+
+    .page-main-team .article-info span.id-number {
+        position: absolute;
+        top: 15%;
+        right: 0;
+        color: #474747;
+    }
+
+    .page-main-team .article-info p {
+        line-height: 1.15em;
+    }
+
+    .page-main-team img {
+        display: block;
+        width: 100%;
+    }

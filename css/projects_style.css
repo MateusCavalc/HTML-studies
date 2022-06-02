@@ -7,10 +7,6 @@ img {
     display: block;
 }
 
-em {
-    color: #a5a5a5;
-}
-
 figure {
     margin-bottom: 1em;
 }
@@ -21,6 +17,10 @@ figure {
 
 .page-main {
 
+    }
+
+    .page-main em {
+        color: #a5a5a5;
     }
 
     .page-main .projects-div {

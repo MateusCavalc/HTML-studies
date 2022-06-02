@@ -7,16 +7,16 @@ img {
     margin-bottom: 2em;
 }
 
-em {
-    color: #a5a5a5;
-}
-
 /* -------------------------------------------------
         Main
    ----------------------------------------------------*/
 
 .page-main {
 
+    }
+
+    .page-main em {
+        color: #a5a5a5;
     }
 
     .page-main .blog-div {

@@ -4,15 +4,11 @@
 
 img {
     width: 100%;
-    display: block;
+    margin-bottom: 2em;
 }
 
 em {
     color: #a5a5a5;
-}
-
-figure {
-    margin-bottom: 1em;
 }
 
 /* -------------------------------------------------
@@ -23,15 +19,15 @@ figure {
 
     }
 
-    .page-main .projects-div {
+    .page-main .blog-div {
         float: left;
-        width: 70%;
+        width: 60%;
         margin-right: 5%
     }
 
     .page-main .side-div {
         float: left;
-        width: 25%;
+        width: 35%;
     }
 
     .page-main-header > h2 {
@@ -46,55 +42,40 @@ figure {
         width: 80%;
     }
 
-    .page-main .projects-div nav:before {
+    .page-main .blog-div article:before {
         content: " ";
         display: block;
         height: 0.4em;
         background: url('../images/pattern.png') left top repeat-x;
-        margin: 1em 0 2em;
+        margin: 1em 0 3em;
     }
 
-    .page-main .projects-div nav {
-        margin-bottom: 1.5em;
+    .page-main figcaption p {
+        margin: 0;
     }
 
-    .page-main .projects-div nav li {
+    .page-main figcaption .left-caption {
         float: left;
+        width: 25%;
+        margin-right: 5%;
     }
 
-    .page-main .projects-div nav li:not(:first-child) em {
-        color: #262626;
-    }
-
-    .page-main .projects-div nav li:not(:last-child):after {
-        content: "|";
-        margin: 0 0.6em;
-    }
-
-    .page-main .projects-div .columns {
+    .page-main figcaption .right-caption {
         float: left;
-        width: 31%;
-        margin-right: 3.5%;
+        width: 70%;
     }
 
-    .page-main .projects-div .columns:last-child {
-        margin-right: 0;
+    .page-main figcaption .left-caption h2 {
+        font-size: 1.4em;
+        margin: 1em 0 0.2em;
     }
 
-    .page-main .projects-div .columns h2 {
-        font-size: 1.3em;
-        margin-bottom: 0.1em;
+    .page-main figcaption .left-caption h2:first-child {
+        margin-top: 0;
     }
 
-    .page-main .projects-div .columns p {
-        margin: 1em 0 0;
-    }
-
-    .page-main .projects-div .columns .fig-info {
-        border-width: 0px 2px 2px 2px;
-        border-style: solid;
-        border-color: #f2f2f2;
-        padding: 0.8em 0.6em;
+    .page-main figcaption .right-caption p:last-child {
+        margin-top: 1em;
     }
 
     .page-main .side-div {

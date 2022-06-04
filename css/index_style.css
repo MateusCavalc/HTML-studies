@@ -6,15 +6,26 @@
 
     }
 
-    .page-main-figure {
+    .page-main-figure figure {
         position: relative;
+    }
+
+    .img-container .canva-div {
+        content: ' ';
+        width: 940px;
+        height: 424px;
+    }
+
+    .img-container ul img {
+        position: absolute;
+        top: 0;
     }
 
     .page-main-figure .img-container ul > img {
         display: block;
     }
 
-    .page-main-figure .img-container img:not(:first-child) {
+    .page-main-figure .img-container ul img:not(:first-of-type) {
         display: none;
     }
     
@@ -113,8 +124,8 @@
 
     .page-main .main-figure-navigator {
         position: absolute;
-        bottom: 37%;
-        right: 3%;
+        bottom: 28%;
+        right: 4%;
     }
 
     .page-main .main-figure-navigator button {

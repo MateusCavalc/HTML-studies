@@ -1,5 +1,6 @@
 
 function onClick() {
+
         var index = $('.main-figure-navigator ul button').index($(this));
 
         var img = $('#main-img' + (index+1));

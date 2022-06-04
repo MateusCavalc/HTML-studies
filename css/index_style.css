@@ -6,8 +6,16 @@
 
     }
 
-    .page-main-figure figure img {
+    .page-main-figure {
+        position: relative;
+    }
+
+    .page-main-figure .img-container ul > img {
         display: block;
+    }
+
+    .page-main-figure .img-container img:not(:first-child) {
+        display: none;
     }
     
     .page-main-figure figcaption {
@@ -101,4 +109,24 @@
 
     .page-main footer > i {
         margin-right: 0.5em;
+    }
+
+    .page-main .main-figure-navigator {
+        position: absolute;
+        bottom: 37%;
+        right: 3%;
+    }
+
+    .page-main .main-figure-navigator button {
+        background-color: #333333;
+        float: left;
+        width: 35px;
+        height: 8px;
+        margin: 0.3em;
+        border: 1px solid #777777;
+        cursor: pointer;
+    }
+
+    .page-main .main-figure-navigator button:not(:first-child) {
+        background-color: #d1d1d1;
     }

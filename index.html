@@ -3,6 +3,8 @@
 <head>
     <title>Blitz - Homepage</title>
     <link href='https://fonts.googleapis.com/css?family=Economica:400,700|Pacifico' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="js/pageControl.js"></script>
     <link rel="stylesheet" href="css/pre_style.css">
     <link rel="stylesheet" href="css/index_style.css">
     <link rel="stylesheet" href="css/all.css">
@@ -27,7 +29,14 @@
     <section class="page-main">
         <div class="page-main-figure fixed-width blank-space">
             <figure>
-                <img class="main-figure" src="https://placeimg.com/940/424/nature">
+                <div class="img-container">
+                    <ul>
+                        <img id="main-img1" class="main-figure" src="https://placeimg.com/940/424/nature">
+                        <img id="main-img2" class="main-figure" src="https://placeimg.com/940/424/architecture">
+                        <img id="main-img3" class="main-figure" src="https://placeimg.com/940/424/people">
+                        <img id="main-img4" class="main-figure" src="https://placeimg.com/940/424/animals">
+                    </ul>
+                </div>
                 <figcaption>
                     <strong class="title">
                         Image caption title
@@ -36,6 +45,14 @@
                         Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
                     </p>
                 </figcaption>
+                <nav class="main-figure-navigator clearfix">
+                    <ul>
+                        <button id="button-img1" type="button" class="main-nav-btn"></button>
+                        <button id="button-img2" type="button" class="main-nav-btn"></button>
+                        <button id="button-img3" type="button" class="main-nav-btn"></button>
+                        <button id="button-img4" type="button" class="main-nav-btn"></button>
+                    </ul>
+                </nav>
             </figure>
         </div>
         <div class="page-main-articles fixed-width blank-space clearfix">
@@ -131,8 +148,6 @@
             </nav>
         </div>
     </section>
-
-
 
     <footer class="page-footer">
         <div class="page-footer-content fixed-width clearfix">

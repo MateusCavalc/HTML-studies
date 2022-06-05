@@ -62,6 +62,10 @@ figure {
         float: left;
     }
 
+    .page-main .projects-div nav em {
+        cursor: pointer;
+    }
+
     .page-main .projects-div nav li:not(:first-child) em {
         color: #262626;
     }

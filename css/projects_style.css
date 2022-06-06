@@ -9,6 +9,15 @@ img {
 
 figure {
     margin-bottom: 1em;
+    display:none;
+}
+
+.toggle-figure {
+    display: block;
+}
+
+.toggle-type {
+    color: #a5a5a5;
 }
 
 /* -------------------------------------------------
@@ -19,9 +28,9 @@ figure {
 
     }
 
-    .page-main em {
+    /* .page-main em {
         color: #a5a5a5;
-    }
+    } */
 
     .page-main .projects-div {
         float: left;
@@ -64,10 +73,6 @@ figure {
 
     .page-main .projects-div nav em {
         cursor: pointer;
-    }
-
-    .page-main .projects-div nav li:not(:first-child) em {
-        color: #262626;
     }
 
     .page-main .projects-div nav li:not(:last-child):after {
